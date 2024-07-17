@@ -11,8 +11,5 @@ COPY main.py .
 # Instala las dependencias especificadas en requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expone el puerto 80
-EXPOSE 80
-
 # Comando para ejecutar la aplicación
 CMD ["python", "main.py"]
